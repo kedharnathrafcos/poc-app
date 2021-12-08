@@ -1,0 +1,111 @@
+@font-face {
+  font-family: Moderne Sans;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/moderne_sans.woff2);
+}
+html {
+  scroll-behavior: smooth;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+ 
+
+
+
+
+
+
+
+.mainContainer{
+  width: 60% !important;
+    margin: auto;
+}
+p,h1,h2{
+  margin: 0px;
+  margin-bottom: 5px;
+}
+.mainHeding{
+  text-align: center;
+}
+.subHeding{
+  text-align: center;
+  font-size: 18px;
+}
+.linkTag{
+    text-align: center;
+    display: block;
+    color: #4b4bffb8;
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+.entitle{
+  text-align: center;
+  font-size: 18px;
+}
+
+.cardTile{
+  width:100% !important;
+  margin: auto;
+}
+.cardPanel{
+height: 200px;
+}
+.cardPanel .CardCenter{
+height: inherit;
+}
+.cardTile .CardCenter:nth-child(1),.CardCenter:nth-child(2){
+  margin-right: 20px !important;
+}
+.cardTile .CardCenter:nth-child(3){
+  margin-left: 20px !important;
+}
+.cardTile p{
+    font-size: 14px  !important;
+    text-align: center !important;
+    margin: 0px;
+    font-weight: bold;
+}
+.cardTile img{
+  width: 80px !important;
+    margin: auto !important;
+}
+.textEnd{
+  text-align: end;
+}
+.textCenter{
+text-align: center  !important;
+}
+hr{
+  border-color: white !important;
+    margin-bottom: 30px !important;
+    margin-top: 30px !important;
+
+}
+
+/* screenthree */
+.Screenthree .MuiFormControl-root {
+  width: 100%;
+}
+.Screenthree label{
+  border: 1px solid #d8d8d8;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+/* screenFour */
