@@ -23,7 +23,9 @@ const themeOptions = {
       '"Segoe UI Emoji"',
       '"Segoe UI Symbol"',
     ].join(','),
+   
   },
+  // spacing:2,
 };
 
  const theme = createTheme(themeOptions);

@@ -30,29 +30,42 @@ html {
 
 
 
-
-
+body{
+  margin: 0px;
+  background-color: #eaeaeb;
+  font-family: 'Roboto', sans-serif !important;
+}
+.main-Container{
+  background-color: #eaeaeb;
+  padding-top: 50px;
+  /* height: calc(100vh - 50px); */
+}
 .mainContainer{
-  width: 60% !important;
-    margin: auto;
+  margin: 5% 0; 
+  background-color: #fff !important;
+  padding: 20px 40px;
 }
 p,h1,h2{
   margin: 0px;
-  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 .mainHeding{
   text-align: center;
+  font-weight: 500;
+    color: #343232;
 }
 .subHeding{
   text-align: center;
   font-size: 18px;
+  color: #343232;
 }
 .linkTag{
     text-align: center;
     display: block;
     color: #4b4bffb8;
     font-size: 18px;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 }
 .entitle{
   text-align: center;
@@ -63,12 +76,26 @@ p,h1,h2{
   width:100% !important;
   margin: auto;
 }
+
+.cardTile .MuiPaper-root{
+  display: grid !important;
+  text-align: center;
+}
 .cardPanel{
-height: 200px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
 }
 .cardPanel .CardCenter{
 height: inherit;
 }
+.cardPanel svg{
+  font-size: 60px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
 .cardTile .CardCenter:nth-child(1),.CardCenter:nth-child(2){
   margin-right: 20px !important;
 }
@@ -81,10 +108,7 @@ height: inherit;
     margin: 0px;
     font-weight: bold;
 }
-.cardTile img{
-  width: 80px !important;
-    margin: auto !important;
-}
+ 
 .textEnd{
   text-align: end;
 }
@@ -92,9 +116,9 @@ height: inherit;
 text-align: center  !important;
 }
 hr{
-  border-color: white !important;
-    margin-bottom: 30px !important;
-    margin-top: 30px !important;
+  border-color: #d9d9d938  !important;
+    margin-bottom: 12px !important;
+    margin-top: 12px !important;
 
 }
 
@@ -104,8 +128,70 @@ hr{
 }
 .Screenthree label{
   border: 1px solid #d8d8d8;
+  box-shadow: 1px 1px 0px 1px #d8d8d8;
   margin-bottom: 10px;
   padding: 10px;
 }
+.Screenthree .MuiFormGroup-root{
+  max-width: 520px;
+  margin-top: 30px !important;
+  margin-bottom: 10px !important;
 
+  margin: auto;
+}
+.Screenthree .MuiFormGroup-root .MuiTypography-root{
+  color: #000;
+  font-weight: 600 !important;
+}
 /* screenFour */
+.formLabelWdth .MuiFormControl-root{
+  width: 40%;
+}
+.fontVarient p,span{
+  font-size: 14px;
+  /* padding-left: 10px; */
+  font-weight: bold;
+  color:#5e5757;
+}
+ .learMore{
+  font-size: 16px;
+  font-weight: normal; 
+  color:#529edf !important;
+}
+.fontVarient span{
+  color: #adabab;
+}
+.fontVarient input{
+  width: 70px;
+  height: 20px;
+  border: 1px solid #dbd5d5;
+  margin-right: 10px;
+}
+.fontVarient input:focus{
+  border-color: #4ae3ba;
+  outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+ul{
+  display: flex !important;
+}
+li{
+  display: block !important;
+  min-width: 250px;
+}
+
+@media screen and (max-width:992px){
+  
+ul{
+  display: block !important;
+}
+}
